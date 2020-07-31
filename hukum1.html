@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hukum 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-preload">
+    <div class="border-main center" style="background-color:beige;">
+        <ul class="nav">
+            <li ><a href="index.html">Home</a></li>
+           </ul>
+    <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Main -->
+                <div id="main">
+                    <div class="inner paddingmenu">
+                        <h1 class="text-center">Hukum 1 Newton</h1>
+                       <img src="images/detailhukum1.png" alt="" class="image-rumus center" />
+                        <p>Bunyi Hukum Newton 1 adalah <strong><em>“Setiap benda akan mempertahankan keadaan diam atau bergerak lurus beraturan, kecuali ada gaya yang bekerja untuk mengubahnya”.</em></strong> </p>
+                        <p>Jika resultan gaya yang bekerja pada suatu benda bernilai 0 maka benda yang awalnya diam akan tetap diam dan untuk benda yang awalnya bergerak akan tetap bergerak dengan kecepatan konstan. Dalam persamaan matematika, Hukum Newton I dapat ditulis: </p>
+                        <img src="images/rumushk1.png" alt="" class="image-rumus center" />
+                        <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/k6d7KpMW90k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        <section>
+                            <h2 >Menghitung Gaya Berat Benda</h2>
+                            <p>Masukan nilai Massa Benda</p>
+
+                    
+                           
+                                  
+                                    <div>
+                                        <input type="number" name="" id="massa" placeholder="MASSA" onkeyup="myFunction()"/>
+                                    </div>
+                                   
+                                
+                                    <p id="demo"></p>
+                                
+                                
+                    
+                        </section>
+                       
+                    </div>
+                </div>
+                </div>
+
+
+            <!-- Footer -->
+              <!--   <footer id="footer">
+                    
+                </footer> -->
+
+        </div>
+         <footer class="footer">
+      <h5>copyright &copy; 2020 by CopenHagen-Fox</h5>
+    </footer>
+        <script>
+            function myFunction() {
+          var massa = document.getElementById("massa").value;
+    
+            var w = massa * 9.8
+            document.getElementById("demo").innerHTML = `Gaya berat benda adalah ${w} N`;
+
+            }
+        </script>
+        
+</body>
+</html>

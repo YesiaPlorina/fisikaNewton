@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hukum 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-preload">
+    <div class="border-main center" style="background-color:beige;">
+        <ul class="nav">
+           
+            <li ><a href="index.html">Home</a></li>
+           </ul>
+    <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Main -->
+                <div id="main">
+                    <div class="inner paddingmenu">
+                        <h1 class="text-center">Hukum 3 Newton</h1>
+                        <img src="images/detailhukum3.png" alt="" class="image-rumus center" />
+                        <p>Bunyi Hukum Newton 3 adalah <strong> <em>“Untuk setiap aksi selalu ada reaksi yang sama besar dan berlawanan arah: atau gaya dari dua benda pada satu sama lain selalu sama besar dan berlawanan arah”</strong></em> </p>
+                        <p>Gaya aksi dan reaksi dari dua benda memiliki besar yang sama, dengan arah berkebalikan, dan segaris. Dalam persamaan matematika, Hukum Newton 3 dapat ditulis: </p>
+                        <img src="images/rumushk3.png" alt="" class="image-rumus center" />
+                        <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vLoWqK8fZf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      
+                    
+                      <section>
+                            <h2>Menghitung Gaya Benda</h2>
+                            <p>Masukan nilai Massa dan Kecepatan</p>
+                            <form method="post" action="#">
+                                <div class="fields center">
+                                    <div class="field half">
+                                        <input type="number" name="massa" id="massa" placeholder="Massa Benda" onkeyup="myFunction()" />
+                                    </div>
+                                    <div class="field half">
+                                        <input type="number" name="kec" id="kec" placeholder="Kecepatan Benda" onkeyup="myFunction()" />
+                                    </div>
+                                </div>
+                                <p id="demo"></p>
+                            </form>
+                        </section>
+        </div></div></div>
+        <footer class="footer">
+      <h5>copyright &copy; 2020 by CopenHagen-Fox</h5>
+    </footer>
+
+   <script>
+
+    function myFunction() {
+  var massa = document.getElementById("massa").value;
+  var kec = document.getElementById("kec").value;
+
+
+  
+    var data = massa*kec;
+    document.getElementById("demo").innerHTML = `Gayanya Adalah ${data} Newton`;
+  
+  
+}
+
+
+   </script>
+</body>
+</html>

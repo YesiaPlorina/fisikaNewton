@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hukum 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-preload">
+    <div class="border-main center" style="background-color:beige;">
+        <ul class="nav">
+           
+            <li ><a href="index.html">Home</a></li>
+           </ul>
+    <!-- Wrapper -->
+        <div id="wrapper">
+
+          
+
+            
+            <!-- Main -->
+                <div id="main">
+                    <div class="inner paddingmenu">
+                        <h1 class="text-center">Hukum 2 Newton</h1>
+                       <img src="images/detailhukum2.jpg" alt="" class="image-rumus center"/>
+                        <p>Bunyi Hukum Newton 1 adalah <strong><em>“Setiap benda akan mempertahankan keadaan diam atau bergerak lurus beraturan, kecuali ada gaya yang bekerja untuk mengubahnya”.</em></strong> </p>
+                        <p>Sebuah benda dengan massa m mengalami gaya resultan sebesar F akan mengalami percepatan a yang arahnya sama dengan arah gaya, dan besarnya berbanding lurus terhadap F dan berbanding terbalik terhadap M atau bisa dituliskan sebagai :</p>
+                      <img src="images/rumushk2.png" alt="" class="image-rumus center" />
+                      <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tvS8Uv3sLG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <section>
+                            <h2>Menghitung Besar Gaya</h2>
+                            <p>Masukan nilai Massa dan Kecepatan</p>
+                            <form method="post" action="#">
+                                <div class="fields center">
+                                    
+                                    <div class="field half">
+                                        <input type="number" name="massa" id="massa" placeholder="massa" onkeyup="myFunction()"/>
+                                    </div><br>
+                                    <div class="field half">
+                                        <input type="number" name="kecepatan" id="kecepatan" placeholder="kecepatan" onkeyup="myFunction()" />
+                                    </div>
+                                </div>
+                                
+                                    
+                                    <p id="demo"></p>
+                              
+                            </form>
+                        </section>
+                       
+                      </div>
+                    </div>
+                </div>
+
+            <!-- Footer -->
+                <!-- <footer id="footer">
+                    <div class="inner center">
+                        <section>
+                            <h2>Menghitung Besar Gaya</h2>
+                            <p>Masukan nilai Massa dan Kecepatan</p>
+                            <form method="post" action="#">
+                                <div class="fields center">
+                                    
+                                    <div class="field half">
+                                        <input type="number" name="massa" id="massa" placeholder="massa" onkeyup="myFunction()"/>
+                                    </div>
+                                    <div class="field half">
+                                        <input type="number" name="kecepatan" id="kecepatan" placeholder="kecepatan" onkeyup="myFunction()" />
+                                    </div>
+                                </div>
+                                
+                                    
+                                    <p id="demo"></p>
+                              
+                            </form>
+                        </section>
+                       
+                    </div>
+                </footer> -->
+
+        </div>
+        <footer class="footer">
+      <h5>Copyright &copy; 2020 by CopenHagen-Fox</h5>
+    </footer>
+<script>
+    function myFunction() {
+  var massa = document.getElementById("massa").value;
+  var kec = document.getElementById("kecepatan").value;
+
+
+  
+    var data = massa*kec;
+    document.getElementById("demo").innerHTML = `Gayanya Adalah ${data} Newton`;
+  
+  
+}
+</script>
+   
+</body>
+</html>
